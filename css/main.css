@@ -2393,7 +2393,7 @@ pre {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff077;
+  background: #b141e2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3564,4 +3564,11 @@ span#inline-purple {
   vertical-align: baseline;
   border-radius: 0;
   background-color: #9954bb;
+}
+body {
+  background: url("/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
