@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>张亿锋</title>
+  <title>张亿锋的个人博客</title>
   
   <subtitle>哈工大(威海) 数学与应用数学&lt;br&gt; UCL 数据科学和机器学习</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>zhangyifeng1995.github.io/</id>
   
   <author>
-    <name>zhangyifeng1995-Eric</name>
+    <name>张亿锋-Eric</name>
     
   </author>
   
