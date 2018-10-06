@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>张亿锋的个人博客</title>
+  <title>Eric&#39;s blog</title>
   
-  <subtitle>哈工大(威海) 数学与应用数学&lt;br&gt; UCL 数据科学和机器学习</subtitle>
+  <subtitle>HIT-math &amp; applied math &lt;br&gt; UCL-data sci &amp; machine learning</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="zhangyifeng1995.github.io/"/>
@@ -10,7 +10,7 @@
   <id>zhangyifeng1995.github.io/</id>
   
   <author>
-    <name>张亿锋-Eric</name>
+    <name>张亿锋</name>
     
   </author>
   
@@ -43,7 +43,7 @@
     <link href="zhangyifeng1995.github.io/%E7%95%99%E5%AD%A6/xuqian/"/>
     <id>zhangyifeng1995.github.io/留学/xuqian/</id>
     <published>2018-09-13T21:19:30.000Z</published>
-    <updated>2018-10-06T15:44:35.683Z</updated>
+    <updated>2018-10-06T16:43:57.834Z</updated>
     
     <summary type="html">
     
