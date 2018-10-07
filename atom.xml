@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zhangyifeng1995.github.io/"/>
-  <updated>2018-10-06T22:27:56.140Z</updated>
+  <updated>2018-10-07T10:13:27.106Z</updated>
   <id>zhangyifeng1995.github.io/</id>
   
   <author>
@@ -21,16 +21,19 @@
     <link href="zhangyifeng1995.github.io/%E6%97%A5%E8%AE%B0/2018-10-1-2018-10-7/"/>
     <id>zhangyifeng1995.github.io/日记/2018-10-1-2018-10-7/</id>
     <published>2018-10-06T22:19:50.000Z</published>
-    <updated>2018-10-06T22:27:56.140Z</updated>
+    <updated>2018-10-07T10:13:27.106Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;span id=&quot;inline\-blue&quot;&gt;摘要&lt;/span&gt;&lt;br&gt;正式上课的第一周。也是一个没有假期的国庆。也是萧山中学校庆的一周。也是mac到手的一周。&lt;br&gt;
+      &lt;p&gt;&lt;span id=&quot;inline\-blue&quot;&gt; 摘要 &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;正式上课的第一周。也是一个没有假期的国庆。也是萧山中学校庆的一周。也是mac到手的一周。&lt;br&gt;
     
     </summary>
     
       <category term="日记" scheme="zhangyifeng1995.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
     
+    
+      <category term="mac" scheme="zhangyifeng1995.github.io/tags/mac/"/>
     
   </entry>
   
@@ -83,7 +86,7 @@
     <link href="zhangyifeng1995.github.io/%E7%94%B5%E8%84%91%E6%8A%80%E6%9C%AF/%E7%94%B5%E8%84%91%E7%9A%84%E5%90%84%E7%A7%8Dtips/"/>
     <id>zhangyifeng1995.github.io/电脑技术/电脑的各种tips/</id>
     <published>2018-10-06T21:45:47.000Z</published>
-    <updated>2018-10-07T02:02:19.728Z</updated>
+    <updated>2018-10-07T10:13:05.006Z</updated>
     
     <summary type="html">
     
@@ -95,9 +98,9 @@
       <category term="电脑技术" scheme="zhangyifeng1995.github.io/categories/%E7%94%B5%E8%84%91%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="windows" scheme="zhangyifeng1995.github.io/tags/windows/"/>
+      <category term="mac" scheme="zhangyifeng1995.github.io/tags/mac/"/>
     
-      <category term="macOS" scheme="zhangyifeng1995.github.io/tags/macOS/"/>
+      <category term="windows" scheme="zhangyifeng1995.github.io/tags/windows/"/>
     
   </entry>
   
