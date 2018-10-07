@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zhangyifeng1995.github.io/"/>
-  <updated>2018-10-07T10:21:31.833Z</updated>
+  <updated>2018-10-07T17:53:10.779Z</updated>
   <id>zhangyifeng1995.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo搭建个人博客-优化</title>
+    <link href="zhangyifeng1995.github.io/hexo%E5%8D%9A%E5%AE%A2/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E4%BC%98%E5%8C%96/"/>
+    <id>zhangyifeng1995.github.io/hexo博客/hexo搭建个人博客-优化/</id>
+    <published>2018-10-07T17:42:28.000Z</published>
+    <updated>2018-10-07T17:53:10.779Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;font color=&quot;red&quot; size=&quot;4&quot;&gt;摘要&lt;font color=&quot;black&quot;&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo博客" scheme="zhangyifeng1995.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="hexo" scheme="zhangyifeng1995.github.io/tags/hexo/"/>
+    
+      <category term="个人博客" scheme="zhangyifeng1995.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>2018.10.1-2018.10.7</title>
@@ -131,11 +154,11 @@
     <link href="zhangyifeng1995.github.io/%E7%95%99%E5%AD%A6/%E8%AF%AD%E8%A8%80%E7%8F%AD%E7%BB%AD%E7%AD%BE/"/>
     <id>zhangyifeng1995.github.io/留学/语言班续签/</id>
     <published>2018-09-13T21:19:30.000Z</published>
-    <updated>2018-10-06T22:18:41.841Z</updated>
+    <updated>2018-10-07T17:45:11.351Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;font color=&quot;#DC143C&quot; size=&quot;4&quot;&gt;摘要&lt;font color=&quot;black&quot;&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;font color=&quot;red&quot; size=&quot;4&quot;&gt;摘要&lt;font color=&quot;black&quot;&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;虽然听说已经英国开始简化T4学生签证的申请材料了. 但是这里我还是按照往年的建议做比较齐全的材料准备.本文主要是个人语言班通过后的签证流程记录。&lt;br&gt;
     
     </summary>
