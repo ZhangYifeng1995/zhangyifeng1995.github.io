@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zhangyifeng1995.github.io/"/>
-  <updated>2018-10-07T18:11:59.323Z</updated>
+  <updated>2018-10-09T21:00:22.275Z</updated>
   <id>zhangyifeng1995.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2018-10-8-2018-10-14</title>
+    <link href="zhangyifeng1995.github.io/%E6%97%A5%E8%AE%B0/2018-10-8-2018-10-14/"/>
+    <id>zhangyifeng1995.github.io/日记/2018-10-8-2018-10-14/</id>
+    <published>2018-10-09T19:51:58.000Z</published>
+    <updated>2018-10-09T21:00:22.275Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;font color=&quot;red&quot; size=&quot;4&quot;&gt; 摘要 &lt;font color=&quot;black&quot;&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;正式上课的第二周。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="日记" scheme="zhangyifeng1995.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="zhangyifeng1995.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo搭建个人博客-优化</title>
     <link href="zhangyifeng1995.github.io/hexo%E5%8D%9A%E5%AE%A2/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E4%BC%98%E5%8C%96/"/>
     <id>zhangyifeng1995.github.io/hexo博客/hexo搭建个人博客-优化/</id>
     <published>2018-10-07T17:42:28.000Z</published>
-    <updated>2018-10-07T18:11:59.323Z</updated>
+    <updated>2018-10-07T18:13:57.304Z</updated>
     
     <summary type="html">
     
@@ -44,7 +65,7 @@
     <link href="zhangyifeng1995.github.io/%E6%97%A5%E8%AE%B0/2018-10-1-2018-10-7/"/>
     <id>zhangyifeng1995.github.io/日记/2018-10-1-2018-10-7/</id>
     <published>2018-10-06T22:19:50.000Z</published>
-    <updated>2018-10-07T10:21:31.833Z</updated>
+    <updated>2018-10-09T20:38:03.313Z</updated>
     
     <summary type="html">
     
@@ -109,7 +130,7 @@
     <link href="zhangyifeng1995.github.io/%E7%94%B5%E8%84%91%E6%8A%80%E6%9C%AF/%E7%94%B5%E8%84%91%E7%9A%84%E5%90%84%E7%A7%8Dtips/"/>
     <id>zhangyifeng1995.github.io/电脑技术/电脑的各种tips/</id>
     <published>2018-10-06T21:45:47.000Z</published>
-    <updated>2018-10-07T10:13:05.006Z</updated>
+    <updated>2018-10-09T21:01:27.529Z</updated>
     
     <summary type="html">
     
@@ -121,9 +142,9 @@
       <category term="电脑技术" scheme="zhangyifeng1995.github.io/categories/%E7%94%B5%E8%84%91%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="mac" scheme="zhangyifeng1995.github.io/tags/mac/"/>
-    
       <category term="windows" scheme="zhangyifeng1995.github.io/tags/windows/"/>
+    
+      <category term="mac" scheme="zhangyifeng1995.github.io/tags/mac/"/>
     
   </entry>
   
