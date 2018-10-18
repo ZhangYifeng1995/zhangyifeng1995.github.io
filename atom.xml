@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zhangyifeng1995.github.io/"/>
-  <updated>2018-10-17T01:39:14.379Z</updated>
+  <updated>2018-10-17T06:52:49.646Z</updated>
   <id>zhangyifeng1995.github.io/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>markdown使用技巧</title>
+    <link href="zhangyifeng1995.github.io/uncategorized/markdown%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    <id>zhangyifeng1995.github.io/uncategorized/markdown使用技巧/</id>
+    <published>2018-10-17T06:41:14.000Z</published>
+    <updated>2018-10-17T06:52:49.646Z</updated>
+    
+    <summary type="html">
+    
+      &lt;font color=&quot;red&quot;&gt;abstract&lt;/font&gt;
+
+&lt;p&gt;这里记录了我用到了一些比较有用的markdown使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>intro to machine learning-1(intro to ml)</title>
     <link href="zhangyifeng1995.github.io/uncategorized/intro%20to%20ml-2/"/>
     <id>zhangyifeng1995.github.io/uncategorized/intro to ml-2/</id>
     <published>2018-10-17T01:34:56.000Z</published>
-    <updated>2018-10-17T01:39:14.379Z</updated>
+    <updated>2018-10-17T09:37:45.126Z</updated>
     
     <summary type="html">
     
@@ -41,7 +59,27 @@
     <link href="zhangyifeng1995.github.io/uncategorized/intro%20to%20ml-1/"/>
     <id>zhangyifeng1995.github.io/uncategorized/intro to ml-1/</id>
     <published>2018-10-17T00:04:10.000Z</published>
-    <updated>2018-10-17T01:34:03.461Z</updated>
+    <updated>2018-10-17T18:23:58.608Z</updated>
+    
+    <summary type="html">
+    
+      &lt;font color=&quot;red&quot;&gt;abstract&lt;/font&gt;
+
+&lt;p&gt;This is the chapter 1 of intro to ml.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="intro to ml" scheme="zhangyifeng1995.github.io/tags/intro-to-ml/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>intro to machine learning-1(intro)</title>
+    <link href="zhangyifeng1995.github.io/uncategorized/intro%20to%20ml-3/"/>
+    <id>zhangyifeng1995.github.io/uncategorized/intro to ml-3/</id>
+    <published>2018-10-17T00:04:10.000Z</published>
+    <updated>2018-10-17T07:02:17.238Z</updated>
     
     <summary type="html">
     
@@ -61,7 +99,7 @@
     <link href="zhangyifeng1995.github.io/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E5%B8%AE%E5%88%AB%E4%BA%BA%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>zhangyifeng1995.github.io/问题解决/帮别人解决的问题/</id>
     <published>2018-10-13T16:11:01.000Z</published>
-    <updated>2018-10-16T23:52:56.910Z</updated>
+    <updated>2018-10-18T05:40:19.312Z</updated>
     
     <summary type="html">
     
@@ -106,63 +144,6 @@
   </entry>
   
   <entry>
-    <title>拉格朗日乘子法</title>
-    <link href="zhangyifeng1995.github.io/%E6%95%B0%E5%AD%A6/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B9%98%E5%AD%90%E6%B3%95/"/>
-    <id>zhangyifeng1995.github.io/数学/拉格朗日乘子法/</id>
-    <published>2018-10-13T15:34:17.000Z</published>
-    <updated>2018-10-16T23:53:27.247Z</updated>
-    
-    <summary type="html">
-    
-      &lt;font color=&quot;red&quot; font=&quot;&quot; size=&quot;4&quot;&gt;摘要&lt;/font&gt;
-
-&lt;p&gt;条件极值问题是求目标函数在一组约束条件下的极值的问题，如&lt;br&gt;$$&lt;br&gt;\boldsymbol{x}^{*}=min_{\boldsymbol{x}} f(\boldsymbol{x})\&lt;br&gt;s.t.\boldsymbol{g}(\boldsymbol{x})=0&lt;br&gt;$$&lt;/p&gt;
-&lt;p&gt;拉格朗日乘子法是一种寻找多元函数在一组约束条件下的极值的方法，通过引入拉格朗日乘子，可将有&lt;br&gt;Lagrange multipliers is a way to find the extreme value of multivariate function under a set of constraint. By introducing Lagrange multipliers, we can change the optimization problem with $d$ variable and $k$ constraint condition to $a$ optimizaition problem with $d+k$ variable.&lt;br&gt;
-    
-    </summary>
-    
-      <category term="数学" scheme="zhangyifeng1995.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
-    
-    
-      <category term="数学分析" scheme="zhangyifeng1995.github.io/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
-    
-      <category term="优化" scheme="zhangyifeng1995.github.io/tags/%E4%BC%98%E5%8C%96/"/>
-    
-      <category term="中文" scheme="zhangyifeng1995.github.io/tags/%E4%B8%AD%E6%96%87/"/>
-    
-      <category term="条件极值" scheme="zhangyifeng1995.github.io/tags/%E6%9D%A1%E4%BB%B6%E6%9E%81%E5%80%BC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Lagrange multipliers</title>
-    <link href="zhangyifeng1995.github.io/math/Lagrange%20multipliers/"/>
-    <id>zhangyifeng1995.github.io/math/Lagrange multipliers/</id>
-    <published>2018-10-13T00:47:38.000Z</published>
-    <updated>2018-10-16T23:54:35.553Z</updated>
-    
-    <summary type="html">
-    
-      &lt;font color=&quot;red&quot; font=&quot;&quot; size=&quot;4&quot;&gt;abstract&lt;/font&gt;
-
-&lt;p&gt;Lagrange multipliers is a way to find the extreme value of multivariate function under a set of constraint. By introducing Lagrange multipliers, we can change the optimization problem with $d$ variable and $k$ constraint condition to $a$ optimizaition problem with $d+k$ variable.&lt;br&gt;
-    
-    </summary>
-    
-      <category term="math" scheme="zhangyifeng1995.github.io/categories/math/"/>
-    
-    
-      <category term="calculus" scheme="zhangyifeng1995.github.io/tags/calculus/"/>
-    
-      <category term="optimization" scheme="zhangyifeng1995.github.io/tags/optimization/"/>
-    
-      <category term="English" scheme="zhangyifeng1995.github.io/tags/English/"/>
-    
-      <category term="conditional extremum" scheme="zhangyifeng1995.github.io/tags/conditional-extremum/"/>
-    
-  </entry>
-  
-  <entry>
     <title>2018-10-8-2018-10-14</title>
     <link href="zhangyifeng1995.github.io/%E6%97%A5%E8%AE%B0/2018-10-8-2018-10-14/"/>
     <id>zhangyifeng1995.github.io/日记/2018-10-8-2018-10-14/</id>
@@ -181,30 +162,6 @@
     
     
       <category term="学习" scheme="zhangyifeng1995.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>introduction to machine learning-1</title>
-    <link href="zhangyifeng1995.github.io/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/1/"/>
-    <id>zhangyifeng1995.github.io/机器学习/1/</id>
-    <published>2018-10-07T17:42:28.000Z</published>
-    <updated>2018-10-17T00:03:54.746Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;#intro to machine learning-1(intro)&lt;/p&gt;
-&lt;h4 id=&quot;Course-Requirements-and-Grading&quot;&gt;&lt;a href=&quot;#Course-Requirements-and-Grading&quot; class=&quot;header
-      
-    
-    </summary>
-    
-      <category term="机器学习" scheme="zhangyifeng1995.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="hexo" scheme="zhangyifeng1995.github.io/tags/hexo/"/>
     
   </entry>
   

@@ -123,7 +123,7 @@
 <meta property="og:site_name" content="Eric&#39;s blog">
 <meta property="og:description" content="abstract  This is the chapter 1 of intro to ml.">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-10-17T01:34:03.461Z">
+<meta property="og:updated_time" content="2018-10-17T18:23:58.608Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="intro to machine learning-1(intro)">
 <meta name="twitter:description" content="abstract  This is the chapter 1 of intro to ml.">
@@ -401,7 +401,7 @@
                 
               
 
-              <time title="创建时间：2018-10-17 01:04:10 / 修改时间：02:34:03" itemprop="dateCreated datePublished" datetime="2018-10-17T01:04:10+01:00">2018-10-17</time>
+              <time title="创建时间：2018-10-17 01:04:10 / 修改时间：19:23:58" itemprop="dateCreated datePublished" datetime="2018-10-17T01:04:10+01:00">2018-10-17</time>
             
 
             
@@ -445,7 +445,6 @@
 <a id="more"></a> 
 <font color="red">body</font>
 
-
 <h1 id="intro-to-machine-learning-1-intro"><a href="#intro-to-machine-learning-1-intro" class="headerlink" title="intro to machine learning-1(intro)"></a>intro to machine learning-1(intro)</h1><h4 id="Course-Requirements-and-Grading"><a href="#Course-Requirements-and-Grading" class="headerlink" title="Course Requirements and Grading"></a>Course Requirements and Grading</h4><p>Lab(30%)</p>
 <ul>
 <li>Python</li>
@@ -473,18 +472,25 @@
 <hr>
 <h4 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h4><p>data -&gt; maodel -&gt;prediction</p>
 <hr>
-<h3 id="Least-squares-model"><a href="#Least-squares-model" class="headerlink" title="Least squares model"></a>Least squares model</h3><h4 id="least-squares-solution-for-linear-regression"><a href="#least-squares-solution-for-linear-regression" class="headerlink" title="least squares solution for linear regression"></a>least squares solution for linear regression</h4><h4 id="Least-squares-solution-for-generalized-linear-regression"><a href="#Least-squares-solution-for-generalized-linear-regression" class="headerlink" title="Least squares solution for generalized linear regression"></a>Least squares solution for generalized linear regression</h4><h4 id="Least-squares-solution-for-ridge-regression"><a href="#Least-squares-solution-for-ridge-regression" class="headerlink" title="Least squares solution for  ridge regression"></a>Least squares solution for  ridge regression</h4><hr>
-<p><strong>$D$</strong>: probleim dimension, e.g. 1D, 2D( can visualize)<br><strong>$N$</strong>: training set size<br><strong>Training set</strong>: input-output pairs $S={\boldsymbol x_{i},y_{i}},i=1,\dots,N$ where,$\boldsymbol x_{i}={x_{i1},\dots,x_{iD}}^{T}\in \mathbb{R}^{D},y_{i}\in \mathbb{R}$,  &#160; generally can be $\boldsymbol x$<br><strong>$\boldsymbol w$</strong>: weight, $\boldsymbol w={w_{1},\dots,w_{D}}^{T}\in \mathbb{R}^{D}$<br><strong>$\epsilon_{i}$</strong>: noise<br><strong>other notation</strong>:<br>$X={\boldsymbol{x_{1}, x_{2}, \dots, x_{N}} }^{T}={\boldsymbol{x_{1}^{T}; x_{2}^{T}; \dots; x_{N}^{T}} }$<br>Remark: “;” represent column vector<br>$\boldsymbol y={y_{1},\dots,y_{N}}^{T}$<br><strong>residual vector</strong>: $\boldsymbol \epsilon={\epsilon_{1},\dots,\epsilon_{N} }^{T}$</p>
+<h3 id="Least-squares-model"><a href="#Least-squares-model" class="headerlink" title="Least squares model"></a>Least squares model</h3><h5 id="least-squares-solution-for-linear-regression"><a href="#least-squares-solution-for-linear-regression" class="headerlink" title="least squares solution for linear regression"></a>least squares solution for linear regression</h5><p><strong>Least squares solution for generalized linear regression</strong></p>
+<p><strong>Least squares solution for  ridge regression</strong></p>
 <hr>
-<font color="red"><strong>linear regression model</strong></font><br>$$<br>\boldsymbol y=X\boldsymbol w+\epsilon<br>\quad  or \quad \boldsymbol y^{T}=\boldsymbol w^{T}X^{T}+\boldsymbol \epsilon^{T}<br>$$<br>that is $y_{i}=\boldsymbol x_{i}^{T} \boldsymbol w +\epsilon_{i},\ \ \ or \ \ \  y_{i}=\boldsymbol w^{T}\boldsymbol x_{i}+\epsilon_{i},i=1,\dots,N$<br><strong>Loss function</strong>: $L(w)=\sum_{i=1}^{N}(y_{i}-\boldsymbol w^{T}x_{i})^{2}$<br><strong>goal</strong>: $\min\limits_{w} \  L(w)$<br><strong>Least squares solution for linear regression</strong>: $w^{<em>}=(X^{T}X)^{-1} X^{T}\boldsymbol y$<br><br>——<br><font color="red"><strong>Generalized linear regression model</strong></font><br>$\boldsymbol x \rightarrow [\boldsymbol \phi(\boldsymbol x)]=[ \phi_{1}(\boldsymbol x),\dots,\phi_{M}(\boldsymbol x) ]^{T}$ where $\phi_{i}(\boldsymbol x),i=1,\dots,M$ can be other form besides $x_{i}$ ( if $x_{i}$, and $M=D$, it is just the linear regression model )<br><br>If $D=1,\ \  and\ \  \phi_{i}(x)=x^{i-1}$, then it is <font color="red">   k-th degree ploynomial fitting<br></font><br>If the highest order of $\phi_{i}(\boldsymbol x)$ is 2, then it is <font color="red">second-order polynomials fitting<br></font><br>set $\Phi=[\boldsymbol\phi(\boldsymbol{x_{1}})^{T};\boldsymbol\phi(\boldsymbol{x_{2}})^{T};\dots;\boldsymbol\phi(\boldsymbol{x_{N}})^{T}]$<br> then the model is:<br>$$<br>\boldsymbol y=\Phi\boldsymbol w+\epsilon<br>$$<br><strong>Least squares solution for generalized linear regression</strong>: $w^{</em>}=(\Phi^{T}\Phi)^{-1} \Phi^{T}\boldsymbol y$<br><br>——<br><br><font color="red"><strong>approximations</strong></font>
+<p><strong>$D$</strong>: problem dimension, e.g. 1D, 2D( can visualize)<br><strong>$N$</strong>: training set size<br><strong>Training set</strong>: input-output pairs $S={\boldsymbol x_{i},y_{i}},i=1,\dots,N$ where,$\boldsymbol x_{i}={x_{i1},\dots,x_{iD}}^{T}\in \mathbb{R}^{D},y_{i}\in \mathbb{R}$,  &#160; generally can be $\boldsymbol x$<br><strong>$\boldsymbol w$</strong>: weight, $\boldsymbol w={w_{1},\dots,w_{D}}^{T}\in \mathbb{R}^{D}$<br><strong>$\epsilon_{i}$</strong>: noise<br><strong>other notation</strong>:<br>$X={\boldsymbol{x_{1}, x_{2}, \dots, x_{N}} }^{T}={\boldsymbol{x_{1}^{T}; x_{2}^{T}; \dots; x_{N}^{T}} }$<br>Remark: “;” represent column vector<br>$\boldsymbol y={y_{1},\dots,y_{N}}^{T}$<br>$\boldsymbol \epsilon={\epsilon_{1},\dots,\epsilon_{N} }^{T}$: <strong>residual vector</strong></p>
+<hr>
+<font color="red"> <strong>linear regression model</strong><br></font><br>$$<br>\boldsymbol y=X\boldsymbol w+\epsilon<br>\quad  or \quad \boldsymbol y^{T}=\boldsymbol w^{T}X^{T}+\boldsymbol \epsilon^{T}<br>$$<br>that is $y_{i}=\boldsymbol x_{i}^{T} \boldsymbol w +\epsilon_{i},\ \ \ or \ \ \  y_{i}=\boldsymbol w^{T}\boldsymbol x_{i}+\epsilon_{i},i=1,\dots,N$<br><strong>Loss function</strong>: $L(w)=\sum_{i=1}^{N}(y_{i}-\boldsymbol w^{T}x_{i})^{2}$<br><strong>goal</strong>: $\min\limits_{w} \  L(w)$<br><strong>Least squares solution for linear regression</strong>: $w^{*}=(X^{T}X)^{-1} X^{T}\boldsymbol y$<br><br>——<br><br><font color="red"><strong>Generalized linear regression model</strong></font>
 
-<p>If $N&gt;D$ (e.g. 30 points, 2 dimensions): overdetermined system<br>If $N&lt;D$ (e.g. 30 points, 3000 dimensions): underdetermined system (overfitting)</p>
+<p>$\boldsymbol x \rightarrow [\boldsymbol \phi(\boldsymbol x)]=[ \phi_{1}(\boldsymbol x),\dots,\phi_{M}(\boldsymbol x) ]^{T}$ where $\phi_{i}(\boldsymbol x),i=1,\dots,M$ can be other form besides $x_{i}$ ( if $x_{i}$, and $M=D​$, it is just the linear regression model )<br></p>
+<p>If $D=1,\ \  and\ \  \phi_{i}(x)=x^{i-1}$, then it is <font color="red"> <strong>k-th degree ploynomial fitting</strong><br></font><br>If the highest order of  is 2, then it is <font color="red"><strong>second-order polynomials fitting</strong><br></font><br>set $\Phi=[\boldsymbol\phi(\boldsymbol{x_{1}})^{T};\boldsymbol\phi(\boldsymbol{x_{2}})^{T};\dots;\boldsymbol\phi(\boldsymbol{x_{N}})^{T}]$<br>then the model is:<br>$$<br>\boldsymbol y=\Phi\boldsymbol w+\boldsymbol\epsilon<br>$$<br><strong>Least squares solution for generalized linear regression</strong>: $w^{*}=(\Phi^{T}\Phi)^{-1} \Phi^{T}\boldsymbol y$<br></p>
+<hr>
+<font color="red"><strong>approximations</strong></font>
+
+<p>If $N&gt;D$ (e.g. 30 points, 2 dimensions): overdetermined system<br><br>If $N&lt;D$ (e.g. 30 points, 3000 dimensions): underdetermined system (overfitting)<br></p>
 <hr>
 <font color="red"><strong>How to control complexity( Regularized linear regression)</strong></font>
 
-<p>1.use vector norm (L2, L1, Lp norm) to measure residual vector<br>Remark: different norm represent different regularized linear regression, here we use L2 norm</p>
-<p>2.rewrite loss function: $L(\boldsymbol{w})=||\boldsymbol{y}-X\boldsymbol{w}||^{2}+\lambda||\boldsymbol{w}||^{2}$<br>this is &lt;fontcolor=red&gt;ridge regression, a.k.a, L2-regularized linear regression<br>Remark: $\lambda$ is “hyperparameter”, select $\lambda$ with cross-validation(use cross-validation for diff values of $\lambda$ – pick value minimizes cross-validation error)</p>
-<p>Cross-validation: least glorious, most effective of all methods (teacher said)</p>
+<p>1.use vector norm (L2, L1, Lp norm) to measure residual vector <br><br>Remark: different norm represent different regularized linear regression, here we use L2 norm<br></p>
+<p>2.rewrite loss function: $L(\boldsymbol{w})=||\boldsymbol{y}-X\boldsymbol{w}||^{2}+\lambda||\boldsymbol{w}||^{2}$<br><br>this is <font color="red"><strong>ridge regression</strong></font>, a.k.a, L2-regularized linear regression<br>Remark: $\lambda$ is “hyperparameter”, select $\lambda$ with cross-validation(use cross-validation for diff values of $\lambda$ – pick value minimizes cross-validation error)</p>
+<p>Cross-validation: least glorious, most effective of all methods (teacher said)<br></p>
 <p>3.<strong>Least squares solution for  ridge regression</strong>: $w^{*}=(X^{T}X+\lambda\boldsymbol{I})^{-1} X^{T}\boldsymbol y$</p>
 
       
@@ -540,8 +546,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/问题解决/帮别人解决的问题/" rel="next" title="帮别人解决的问题">
-                <i class="fa fa-chevron-left"></i> 帮别人解决的问题
+              <a href="/uncategorized/intro to ml-3/" rel="next" title="intro to machine learning-1(intro)">
+                <i class="fa fa-chevron-left"></i> intro to machine learning-1(intro)
               </a>
             
           </div>
@@ -644,7 +650,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">15</span>
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -669,13 +675,7 @@
                     
                       
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -726,23 +726,7 @@
                     
                       
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">27</span>
+                    <span class="site-state-item-count">19</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -827,7 +811,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#intro-to-machine-learning-1-intro"><span class="nav-number">1.</span> <span class="nav-text">intro to machine learning-1(intro)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Course-Requirements-and-Grading"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">Course Requirements and Grading</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Meeting-hours"><span class="nav-number">1.0.0.2.</span> <span class="nav-text">Meeting hours</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Prerequisites"><span class="nav-number">1.0.0.3.</span> <span class="nav-text">Prerequisites:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Machine-Learning"><span class="nav-number">1.0.0.4.</span> <span class="nav-text">Machine Learning</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Least-squares-model"><span class="nav-number">1.0.1.</span> <span class="nav-text">Least squares model</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#least-squares-solution-for-linear-regression"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">least squares solution for linear regression</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Least-squares-solution-for-generalized-linear-regression"><span class="nav-number">1.0.1.2.</span> <span class="nav-text">Least squares solution for generalized linear regression</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Least-squares-solution-for-ridge-regression"><span class="nav-number">1.0.1.3.</span> <span class="nav-text">Least squares solution for  ridge regression</span></a></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#intro-to-machine-learning-1-intro"><span class="nav-number">1.</span> <span class="nav-text">intro to machine learning-1(intro)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Course-Requirements-and-Grading"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">Course Requirements and Grading</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Meeting-hours"><span class="nav-number">1.0.0.2.</span> <span class="nav-text">Meeting hours</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Prerequisites"><span class="nav-number">1.0.0.3.</span> <span class="nav-text">Prerequisites:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Machine-Learning"><span class="nav-number">1.0.0.4.</span> <span class="nav-text">Machine Learning</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Least-squares-model"><span class="nav-number">1.0.1.</span> <span class="nav-text">Least squares model</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#least-squares-solution-for-linear-regression"><span class="nav-number">1.0.1.0.1.</span> <span class="nav-text">least squares solution for linear regression</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
