@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[markdown使用技巧]]></title>
-    <url>%2Funcategorized%2Fmarkdown%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7%2F</url>
-    <content type="text"><![CDATA[abstract 这里记录了我用到了一些比较有用的markdown使用技巧。 body 基础的Typora-markdown代码 “#” 用于标题 “*” 用于无序列表项目、强调或加粗文本 “&gt;” 用于引用文本 “`” 用于代码 “`” 用于连接 “-” 用于横线或无序列表项目 markdown中的公式编辑，两个“$”必须紧贴着公式 修改颜色’你好‘: \你好\ 修改大小’你好‘: \你好\ 各字符对应 波浪线 ‘$～$’: \sim 公式加粗 ‘$\boldsymbol x$’: \boldsymbol 实数空间 ‘$\mathbb{R}$’: \mathbb{R} 非公式内空格: 只要一个空格: 直接打普通空格即可 多个空格: 添加&#160;或者 注：每使用一次代码，按下空格可以重复一次。结合使用效果更加！ 公式里面空格: 大空格: \quad 小空格: \ (可以用空格间隔打\，来制造大空格) 右箭头 ‘$\rightarrow$’: \rightarrow 大括号’${ }$’: { } 中括号’$[]$’: [ ] 将下标放在正下方’$\sum\limits_{i=1}$’: \sum\limits_{i=1} 为什么不同markdown显示的图不同: 你要意识到，你写的markdown语言，最后其实是转换成html语言的。html本来就是为了结构化文档的，可是html写起来太费劲了，所以才有markdown语言。markdown标准化了，大家都可以用自己的方式将markdown转换成自己想要的html。其实转html是差不多的，不一样就体现在各个解析器怎么去写自己css（体现成不同的样式）。 希腊字母表其他花体字母相关：正态分布$\mathcal{N}$: \mathcal{N} 参考： 关于印象笔记与markdown，你需要知道这些 Markdown之语法入门篇 Markdown定义Macros LaTeX —— 特殊符号与数学字体]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[帮别人解决的问题]]></title>
-    <url>%2F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%2F%E5%B8%AE%E5%88%AB%E4%BA%BA%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[摘要 本文主要用于发布帮助别人的解决的问题，并且提升自我。 正文 1.赵同学于10.13问 R-S integrals：黎曼-斯蒂尔杰斯积分：定义： 问：$[0,T]$ 定义的R-S积分，我们假定 $f$ 和 $g$ 必须在同一个点 $s\in [0，T]$ 上没有间断。给一个例子来解释为什么我们需要这样一个条件。 解决方案。令 $f(x)=g(x)=I\lbrace x\geq1\rbrace$ ,以及 $T=2$ 。然后选择一个划分 $0\leq t_{0}\leq\dots\leq t_{n}$ 使得存在某个 $k$ 成立 $t_{k-1}\leq 1\leq t_{k}$ 。显然，$$S_{n}=\sum{f(y_{i})\Delta_{ig}}=\sum_{i=1}^{n}{f(y_{i})}[g(t_{i})-g(t_{i-1})]=f(y_{k})[g(t_{k})-g(t_{k-1})],$$是0或者1，依赖于$y_{k}\leq1$还是$y_{k}\geq1$。 具体证明：见此链接]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>帮助别人</tag>
-        <tag>提升自我</tag>
-        <tag>问题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[atom-markdown使用指南]]></title>
     <url>%2F%E5%8D%9A%E5%AE%A2%2Fatom-markdown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%2F</url>
     <content type="text"><![CDATA[摘要 这里是atom的各种插件介绍，以及一些atom结合markdown使用的小技巧。 正文 1.如何在Atom上编辑Markdown时，直接粘贴图片的插件在：atom设置里的install搜索markdown-img-paste,安装后使用快捷键ctrl+shift+v就可以将复制到系统剪切板的图片粘贴到 Markdown。 引用链接 2.]]></content>
