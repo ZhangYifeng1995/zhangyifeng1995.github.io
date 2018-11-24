@@ -11,10 +11,8 @@
 
 
 
-  
 
-
-<html class="theme-next pisces use-motion" lang="zh-CN">
+<html class="theme-next pisces" lang="zh-CN">
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -86,6 +84,18 @@
 
 
 
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入密码') !== ''){
+                alert('密码错误');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+
 
 <script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
@@ -98,7 +108,7 @@
     fastclick: false,
     lazyload: false,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -203,6 +213,8 @@
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left 
   page-home">
     <div class="headband"></div>
+
+<a href="https://github.com/ZhangYifeng1995" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
@@ -358,6 +370,224 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="zhangyifeng1995.github.io/博客/hexo搭建个人博客-优化/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张亿锋">
+      <meta itemprop="description" content="不要哀求，学会争取，若能如此，终有所获！——交响诗篇">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Eric's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/博客/hexo搭建个人博客-优化/" itemprop="url">
+                  hexo搭建个人博客-优化
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+          
+            <i class="fa fa-thumb-tack"></i>
+            <font color=7D26CD>置顶</font>
+            <span class="post-meta-divider">|</span>
+          
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-10-07 18:42:28" itemprop="dateCreated datePublished" datetime="2018-10-07T18:42:28+01:00">2018-10-07</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-24 03:37:24" itemprop="dateModified" datetime="2018-11-24T03:37:24+00:00">2018-11-24</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/博客/" itemprop="url" rel="index"><span itemprop="name">博客</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/博客/hexo搭建个人博客-优化/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/博客/hexo搭建个人博客-优化/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/博客/hexo搭建个人博客-优化/" class="leancloud_visitors" data-flag-title="hexo搭建个人博客-优化">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <font color="red" size="4">摘要</font>
+
+<p>在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/博客/hexo搭建个人博客-优化/" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+        
+    </div>
+
+    
+
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+
+  <div>
+    
+  </div>
+
+  
+  
+  
+  </article>
+
+
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-categories" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="zhangyifeng1995.github.io/uncategorized/test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -388,6 +618,8 @@
         <div class="post-meta">
           <span class="post-time">
 
+          
+
             
             
             
@@ -404,7 +636,7 @@
                 
               
 
-              <time title="创建时间：2018-11-24 01:57:35 / 修改时间：02:26:05" itemprop="dateCreated datePublished" datetime="2018-11-24T01:57:35+00:00">2018-11-24</time>
+              <time title="创建时间：2018-11-24 01:57:35 / 修改时间：03:17:12" itemprop="dateCreated datePublished" datetime="2018-11-24T01:57:35+00:00">2018-11-24</time>
             
 
             
@@ -418,9 +650,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/uncategorized/test/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/uncategorized/test/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/uncategorized/test/" class="leancloud_visitors" data-flag-title="test">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -470,6 +723,10 @@
 
     
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
       
 
@@ -483,11 +740,11 @@
       
     </footer>
   </div>
-  
+
   <div>
     
   </div>
-  
+
   
   
   
@@ -542,6 +799,8 @@
         <div class="post-meta">
           <span class="post-time">
 
+          
+
             
             
             
@@ -572,9 +831,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/uncategorized/计算机杂学/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/uncategorized/计算机杂学/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/uncategorized/计算机杂学/" class="leancloud_visitors" data-flag-title="">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -630,6 +910,10 @@
 
     
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
       
 
@@ -643,11 +927,11 @@
       
     </footer>
   </div>
-  
+
   <div>
     
   </div>
-  
+
   
   
   
@@ -701,6 +985,8 @@
 
         <div class="post-meta">
           <span class="post-time">
+
+          
 
             
             
@@ -762,9 +1048,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/博客/atom-markdown使用指南/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/博客/atom-markdown使用指南/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/博客/atom-markdown使用指南/" class="leancloud_visitors" data-flag-title="atom-markdown使用指南">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -816,6 +1123,10 @@
 
     
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
       
 
@@ -829,11 +1140,11 @@
       
     </footer>
   </div>
-  
+
   <div>
     
   </div>
-  
+
   
   
   
@@ -887,6 +1198,8 @@
 
         <div class="post-meta">
           <span class="post-time">
+
+          
 
             
             
@@ -948,9 +1261,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/日记/2018-10-8-2018-10-14/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/日记/2018-10-8-2018-10-14/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/日记/2018-10-8-2018-10-14/" class="leancloud_visitors" data-flag-title="2018-10-8-2018-10-14">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -1003,192 +1337,9 @@
 
     
 
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  <div>
-    
-  </div>
-  
-  
-  
-  
-  </article>
-
-
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-categories" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="zhangyifeng1995.github.io/博客/hexo搭建个人博客-优化/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="张亿锋">
-      <meta itemprop="description" content="不要哀求，学会争取，若能如此，终有所获！——交响诗篇">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Eric's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/博客/hexo搭建个人博客-优化/" itemprop="url">
-                  hexo搭建个人博客-优化
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-10-07 18:42:28" itemprop="dateCreated datePublished" datetime="2018-10-07T18:42:28+01:00">2018-10-07</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-10-17 00:55:01" itemprop="dateModified" datetime="2018-10-17T00:55:01+01:00">2018-10-17</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/博客/" itemprop="url" rel="index"><span itemprop="name">博客</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <font color="red" size="4">摘要</font>
-
-<p>在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了Â一些别人整理的优化方案。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/博客/hexo搭建个人博客-优化/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
     <div>
-        
+      
     </div>
-
-    
-
-    
-
-    
 
     <footer class="post-footer">
       
@@ -1203,11 +1354,11 @@
       
     </footer>
   </div>
-  
+
   <div>
     
   </div>
-  
+
   
   
   
@@ -1261,6 +1412,8 @@
 
         <div class="post-meta">
           <span class="post-time">
+
+          
 
             
             
@@ -1322,9 +1475,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/日记/2018-10-1-2018-10-7/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/日记/2018-10-1-2018-10-7/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/日记/2018-10-1-2018-10-7/" class="leancloud_visitors" data-flag-title="2018.10.1-2018.10.7">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -1377,6 +1551,10 @@
 
     
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
       
 
@@ -1390,11 +1568,11 @@
       
     </footer>
   </div>
-  
+
   <div>
     
   </div>
-  
+
   
   
   
@@ -1448,6 +1626,8 @@
 
         <div class="post-meta">
           <span class="post-time">
+
+          
 
             
             
@@ -1509,9 +1689,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/留学/伦敦地铁/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/留学/伦敦地铁/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/留学/伦敦地铁/" class="leancloud_visitors" data-flag-title="伦敦地铁">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -1564,6 +1765,10 @@
 
     
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
       
 
@@ -1577,11 +1782,11 @@
       
     </footer>
   </div>
-  
+
   <div>
     
   </div>
-  
+
   
   
   
@@ -1635,6 +1840,8 @@
 
         <div class="post-meta">
           <span class="post-time">
+
+          
 
             
             
@@ -1696,9 +1903,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/游戏/狼人杀各种局的常见规则/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/游戏/狼人杀各种局的常见规则/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/游戏/狼人杀各种局的常见规则/" class="leancloud_visitors" data-flag-title="狼人杀各种局的常见规则">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -1751,6 +1979,10 @@
 
     
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
       
 
@@ -1764,11 +1996,11 @@
       
     </footer>
   </div>
-  
+
   <div>
     
   </div>
-  
+
   
   
   
@@ -1822,6 +2054,8 @@
 
         <div class="post-meta">
           <span class="post-time">
+
+          
 
             
             
@@ -1883,9 +2117,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/电脑技术/电脑的各种tips/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/电脑技术/电脑的各种tips/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/电脑技术/电脑的各种tips/" class="leancloud_visitors" data-flag-title="电脑的各种tips(学无止境……)">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -1938,6 +2193,10 @@
 
     
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
       
 
@@ -1951,11 +2210,11 @@
       
     </footer>
   </div>
-  
+
   <div>
     
   </div>
-  
+
   
   
   
@@ -2009,6 +2268,8 @@
 
         <div class="post-meta">
           <span class="post-time">
+
+          
 
             
             
@@ -2070,9 +2331,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/留学/NL洗衣房/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/留学/NL洗衣房/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/留学/NL洗衣房/" class="leancloud_visitors" data-flag-title="留学——如何在NL的laundry(洗衣房)洗衣服和烘干衣服">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -2123,6 +2405,10 @@
 
     
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
       
 
@@ -2136,11 +2422,11 @@
       
     </footer>
   </div>
-  
+
   <div>
     
   </div>
-  
+
   
   
   
@@ -2288,6 +2574,11 @@
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
+                  <a href="https://github.com/ZhangYifeng1995" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
                   <a href="mailto:zhangyifeng1995@gmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   
                 </span>
@@ -2307,6 +2598,21 @@
                   
                 </span>
               
+                <span class="links-of-author-item">
+                  <a href="https://stackoverflow.com/users/10623030/yifengzhang" target="_blank" title="StackOverflow"><i class="fa fa-fw fa-stack-overflow"></i>StackOverflow</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://youtube.com" target="_blank" title="YouTube"><i class="fa fa-fw fa-youtube"></i>YouTube</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.baidu.com" target="_blank" title="Baidu"><i class="fa fa-fw fa-baidu"></i>Baidu</a>
+                  
+                </span>
+              
             </div>
           
 
@@ -2318,16 +2624,24 @@
             <div class="links-of-blogroll motion-element links-of-blogroll-inline">
               <div class="links-of-blogroll-title">
                 <i class="fa  fa-fw fa-link"></i>
-                友情链接
+                Useful link
               </div>
               <ul class="links-of-blogroll-list">
                 
                   <li class="links-of-blogroll-item">
-                    <a href="http://www.baidu.com" title="baidu" target="_blank">baidu</a>
+                    <a href="https://www.zhihu.com/" title="zhihu" target="_blank">zhihu</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <a href="http://www.google.com" title="google" target="_blank">google</a>
+                    <a href="https://www.csdn.net/" title="csdn" target="_blank">csdn</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.jianshu.com/" title="jianshu" target="_blank">jianshu</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://segmentfault.com/" title="segmentfault" target="_blank">segmentfault</a>
                   </li>
                 
               </ul>
@@ -2402,7 +2716,7 @@
     
 
     
-	
+
     
 
     
@@ -2497,6 +2811,31 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '93dS1lv0H1Yj7ldNzyItbrxv-gzGzoHsz',
+        appKey: '0ctFKgo4VdrPDkCXUIpGINAz',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        meta:guest,
+        pageSize:'10' || 10,
+        visitor: true
+    });
+  </script>
 
 
 
@@ -2839,9 +3178,9 @@
   
     
       
-        
-      
     
+      
+        
       
     
       
@@ -2919,5 +3258,5 @@
 
   
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
