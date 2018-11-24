@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2Funcategorized%2F%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9D%82%E5%AD%A6%2F</url>
+    <content type="text"><![CDATA[title: hexo搭建个人博客-优化type: categoriescopyright: falsedate: 2018-11-24 01:10:28mathjax: truetags: hexo 个人博客categories: 博客 RSS:参考：https://blog.csdn.net/zhao1949/article/details/52806123 RSS是什么：可以帮助我们，在关注的网站更新时，不需要进入网站就可以知道网站更新了哪些文章，然后直接选择性的阅读。 为什么：用RSS，高效浏览很多你想浏览的文章内容，而尽可能少一些操作。 怎么用RSS：在浏览器中搜索RSS应用，下载 \section*{RSS}参考：https://blog.csdn.net/zhao1949/article/details/52806123 RSS\textbf{是什么}：可以帮助我们，在关注的网站更新时，不需要进入网站就可以知道网站更新了哪些文章，然后直接选择性的阅读。 \textbf{为什么}用RSS：可以高效浏览很多你想浏览的文章内容，而尽可能少一些操作。 \textbf{怎么样}用RSS：在浏览器中搜索RSS应用，下载，然后在支持RSS的博客上点击RSS。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[atom-markdown使用指南]]></title>
     <url>%2F%E5%8D%9A%E5%AE%A2%2Fatom-markdown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%2F</url>
     <content type="text"><![CDATA[摘要 这里是atom的各种插件介绍，以及一些atom结合markdown使用的小技巧。 正文 1.如何在Atom上编辑Markdown时，直接粘贴图片的插件在：atom设置里的install搜索markdown-img-paste,安装后使用快捷键ctrl+shift+v就可以将复制到系统剪切板的图片粘贴到 Markdown。 引用链接 2.]]></content>
@@ -26,7 +31,7 @@
   <entry>
     <title><![CDATA[hexo搭建个人博客-优化]]></title>
     <url>%2F%E5%8D%9A%E5%AE%A2%2Fhexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E4%BC%98%E5%8C%96%2F</url>
-    <content type="text"><![CDATA[摘要 在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了Â一些别人整理的优化方案。 正文 1.添加pdf插件 参考GitHub中Hexo next主题下搭建的博客中增加PDF插件 1.cd到blog页面下，然后输入‘npm install –save hexo-pdf’(单引号省略) 2.如果是外部文章链接，在你写的博文md文件的你需要添加pdf的地方直接输入 1&#123;%pdf 那个pdf的地址 %&#125; 如果是本地文章链接，你可以在blog的source文件夹下建立一个pdf的文档，然后把本地pdf放进去，然后在md文件内输入 1&#123;%pdf ./pdf/pdf的名字.pdf %&#125; 2.在Hexo博客中输入数学公式，不仅仅需要你在生成的markdown文件中输入正确的公式内容，还要在主题文件中进行配置 参考Hexo 输入数学公式或者参考Hexo博客数学公式显示 如下图，在next主题配置文件_config.yaml中找到MathJax 选项，将enable改成true即可 3.在使用atom的markdown-image-paste功能时，放到hexo中去回无法显示图片，这时候我们需要在terminal中进行安装参考用atom+markdown+hexo+github写博客1npm install https://github.com/CodeFalling/hexo-asset-image --save 注意，以后每次都复制\source_posts\assets进入\sources\assets,同时在复制成功的代码前加个\]]></content>
+    <content type="text"><![CDATA[摘要 在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了Â一些别人整理的优化方案。 正文 1.添加pdf插件 参考GitHub中Hexo next主题下搭建的博客中增加PDF插件 1.cd到blog页面下，然后输入‘npm install —save hexo-pdf’(单引号省略) 2.如果是外部文章链接，在你写的博文md文件的你需要添加pdf的地方直接输入 1&#123;%pdf 那个pdf的地址 %&#125; 如果是本地文章链接，你可以在blog的source文件夹下建立一个pdf的文档，然后把本地pdf放进去，然后在md文件内输入 1&#123;%pdf ./pdf/pdf的名字.pdf %&#125; 2.在Hexo博客中输入数学公式，不仅仅需要你在生成的markdown文件中输入正确的公式内容，还要在主题文件中进行配置 参考Hexo 输入数学公式或者参考Hexo博客数学公式显示 如下图，在next主题配置文件_config.yaml中找到MathJax 选项，将enable改成true即可 3.在使用atom的markdown-image-paste功能时，放到hexo中去回无法显示图片，这时候我们需要在terminal中进行安装参考用atom+markdown+hexo+github写博客1npm install https://github.com/CodeFalling/hexo-asset-image --save 注意，以后每次都复制\source_posts\assets进入\sources\assets,同时在复制成功的代码前加个\]]></content>
       <categories>
         <category>博客</category>
       </categories>
@@ -84,7 +89,7 @@
   <entry>
     <title><![CDATA[留学——如何在NL的laundry(洗衣房)洗衣服和烘干衣服]]></title>
     <url>%2F%E7%95%99%E5%AD%A6%2FNL%E6%B4%97%E8%A1%A3%E6%88%BF%2F</url>
-    <content type="text"><![CDATA[摘要在欧、美洲，很少看见拿衣物外边晾晒[1]的，这个也就决定了，必须使用滚筒洗衣机，只有滚筒才有洗、干衣一体的功能[2]。本人住在northlodge，所以本文只介绍northlodge的洗衣机使用方法。 ##正文：首先需要下载一个叫做Your Laundry的软件，并在里面充值至少5英镑。注意洗衣服需要用3.5英镑。烘干需要1.7英镑。一次流程需要5.2英镑。图三是主界面。充值请选择add funds，然后在amount中至少输入5英镑，promo code不需要输，然后点paypal或者credit/debit card进行支付。 ###洗衣服指导： 1.加入清洁剂到the soap drawer(就是洗衣机左上角的那个抽屉）或者滚筒(洗衣球) 2.把衣服加到洗衣机里面去，最多装满四分之三，别过载！ 3.付钱 4.选择循环方式，对于你洗的衣服，superwash or supercycle可以使你的衣服更加干净 5.循环结束！等待门锁释放的30秒钟 ###烘干衣服指导： 1.清洗你的lint filter(线头滤器)，它在滚筒的前面-它能帮你更快烘干你的衣服[3] 2.把衣服加到烘干机里面去，最多装满四分之三，别过载！ 3.付钱 4.选择循环方式，以及记得检查标签 5.快速拿走衣服，这样别人就不会拿走你的衣服 ###温度指南： 洗衣时： 总是检查标签 白色的-60摄氏度 有颜色的-40摄氏度 比较耐磨、不易起褶的化纤衣物(合成纤维)，如牛仔等-40度 精织品-30度 烘干时：总之检查标签 白色/有颜色的(棉的，牛仔布，毛巾， 床上用品)-150-160摄氏度 比较耐磨、不易起褶的化纤衣物(合成纤维)，如牛仔等，较轻的衣服比如衬衫和T恤衫-140-150摄氏度 精织品，像丝绸一样的精织品-110-120摄氏度 我一般洗衣服：往滚筒内放入洗衣球和衣服，付钱，选择循环模式，选择start。等待50分钟 烘干衣服：将洗好的衣服放入滚筒，付钱，选择第一个模式，选择start。等待50分钟。 如果你需要帮助： 电话联系：01422820040或者08000924068 邮件联系：service@circuitgroup.com circuit.co.uk Reference List: [1]科普 | 为什么美国人不在外面晒衣服？这是我见过最有说服力的解释! [2]外国人都用什么洗衣机. [3]如何清理衣服烘干机的过滤器]]></content>
+    <content type="text"><![CDATA[摘要在欧、美洲，很少看见拿衣物外边晾晒[1]的，这个也就决定了，必须使用滚筒洗衣机，只有滚筒才有洗、干衣一体的功能[2]。本人住在northlodge，所以本文只介绍northlodge的洗衣机使用方法。 正文：首先需要下载一个叫做Your Laundry的软件，并在里面充值至少5英镑。注意洗衣服需要用3.5英镑。烘干需要1.7英镑。一次流程需要5.2英镑。图三是主界面。充值请选择add funds，然后在amount中至少输入5英镑，promo code不需要输，然后点paypal或者credit/debit card进行支付。 洗衣服指导：1.加入清洁剂到the soap drawer(就是洗衣机左上角的那个抽屉）或者滚筒(洗衣球) 2.把衣服加到洗衣机里面去，最多装满四分之三，别过载！ 3.付钱 4.选择循环方式，对于你洗的衣服，superwash or supercycle可以使你的衣服更加干净 5.循环结束！等待门锁释放的30秒钟 烘干衣服指导：1.清洗你的lint filter(线头滤器)，它在滚筒的前面-它能帮你更快烘干你的衣服[3] 2.把衣服加到烘干机里面去，最多装满四分之三，别过载！ 3.付钱 4.选择循环方式，以及记得检查标签 5.快速拿走衣服，这样别人就不会拿走你的衣服 温度指南：洗衣时： 总是检查标签 白色的-60摄氏度 有颜色的-40摄氏度 比较耐磨、不易起褶的化纤衣物(合成纤维)，如牛仔等-40度 精织品-30度 烘干时：总之检查标签 白色/有颜色的(棉的，牛仔布，毛巾， 床上用品)-150-160摄氏度 比较耐磨、不易起褶的化纤衣物(合成纤维)，如牛仔等，较轻的衣服比如衬衫和T恤衫-140-150摄氏度 精织品，像丝绸一样的精织品-110-120摄氏度 我一般洗衣服：往滚筒内放入洗衣球和衣服，付钱，选择循环模式，选择start。等待50分钟 烘干衣服：将洗好的衣服放入滚筒，付钱，选择第一个模式，选择start。等待50分钟。 如果你需要帮助： 电话联系：01422820040或者08000924068 邮件联系：service@circuitgroup.com circuit.co.uk Reference List: [1]科普 | 为什么美国人不在外面晒衣服？这是我见过最有说服力的解释! [2]外国人都用什么洗衣机. [3]如何清理衣服烘干机的过滤器]]></content>
       <categories>
         <category>留学</category>
       </categories>
