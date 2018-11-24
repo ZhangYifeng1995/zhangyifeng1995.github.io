@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zhangyifeng1995.github.io/"/>
-  <updated>2018-11-24T03:17:12.266Z</updated>
+  <updated>2018-11-24T12:29:06.746Z</updated>
   <id>zhangyifeng1995.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="zhangyifeng1995.github.io/uncategorized/test/"/>
     <id>zhangyifeng1995.github.io/uncategorized/test/</id>
     <published>2018-11-24T01:57:35.000Z</published>
-    <updated>2018-11-24T03:17:12.266Z</updated>
+    <updated>2018-11-24T12:29:06.746Z</updated>
     
     <summary type="html">
     
@@ -81,28 +81,6 @@
   </entry>
   
   <entry>
-    <title>2018-10-8-2018-10-14</title>
-    <link href="zhangyifeng1995.github.io/%E6%97%A5%E8%AE%B0/2018-10-8-2018-10-14/"/>
-    <id>zhangyifeng1995.github.io/日记/2018-10-8-2018-10-14/</id>
-    <published>2018-10-09T19:51:58.000Z</published>
-    <updated>2018-10-16T23:52:40.232Z</updated>
-    
-    <summary type="html">
-    
-      &lt;font color=&quot;red&quot; size=&quot;4&quot;&gt; 摘要 &lt;/font&gt;
-
-&lt;p&gt;正式上课的第二周。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="日记" scheme="zhangyifeng1995.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="学习" scheme="zhangyifeng1995.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo搭建个人博客-优化</title>
     <link href="zhangyifeng1995.github.io/%E5%8D%9A%E5%AE%A2/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E4%BC%98%E5%8C%96/"/>
     <id>zhangyifeng1995.github.io/博客/hexo搭建个人博客-优化/</id>
@@ -123,28 +101,6 @@
       <category term="hexo" scheme="zhangyifeng1995.github.io/tags/hexo/"/>
     
       <category term="个人博客" scheme="zhangyifeng1995.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2018.10.1-2018.10.7</title>
-    <link href="zhangyifeng1995.github.io/%E6%97%A5%E8%AE%B0/2018-10-1-2018-10-7/"/>
-    <id>zhangyifeng1995.github.io/日记/2018-10-1-2018-10-7/</id>
-    <published>2018-10-06T22:19:50.000Z</published>
-    <updated>2018-10-16T23:52:20.435Z</updated>
-    
-    <summary type="html">
-    
-      &lt;font color=&quot;#DC143C&quot; size=&quot;4&quot;&gt; 摘要 &lt;/font&gt;
-
-&lt;p&gt;正式上课的第一周。也是一个没有假期的国庆。也是萧山中学校庆的一周。也是mac到手的一周。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="日记" scheme="zhangyifeng1995.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="mac" scheme="zhangyifeng1995.github.io/tags/mac/"/>
     
   </entry>
   
@@ -212,9 +168,9 @@
       <category term="电脑技术" scheme="zhangyifeng1995.github.io/categories/%E7%94%B5%E8%84%91%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="mac" scheme="zhangyifeng1995.github.io/tags/mac/"/>
-    
       <category term="windows" scheme="zhangyifeng1995.github.io/tags/windows/"/>
+    
+      <category term="mac" scheme="zhangyifeng1995.github.io/tags/mac/"/>
     
   </entry>
   
@@ -245,7 +201,7 @@
     <link href="zhangyifeng1995.github.io/%E7%95%99%E5%AD%A6/%E8%AF%AD%E8%A8%80%E7%8F%AD%E7%BB%AD%E7%AD%BE/"/>
     <id>zhangyifeng1995.github.io/留学/语言班续签/</id>
     <published>2018-09-13T21:19:30.000Z</published>
-    <updated>2018-10-07T17:45:11.351Z</updated>
+    <updated>2018-11-24T12:31:50.880Z</updated>
     
     <summary type="html">
     
