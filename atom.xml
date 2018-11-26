@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zhangyifeng1995.github.io/"/>
-  <updated>2018-11-24T02:20:34.484Z</updated>
+  <updated>2018-11-26T04:04:14.264Z</updated>
   <id>zhangyifeng1995.github.io/</id>
   
   <author>
@@ -21,12 +21,13 @@
     <link href="zhangyifeng1995.github.io/%E5%8D%9A%E5%AE%A2/atom-markdown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
     <id>zhangyifeng1995.github.io/博客/atom-markdown使用指南/</id>
     <published>2018-10-13T16:07:10.000Z</published>
-    <updated>2018-11-24T02:20:34.484Z</updated>
+    <updated>2018-11-26T04:04:14.264Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这里是atom的各种插件介绍，以及一些atom结合markdown使用的小技巧。</p><a id="more"></a><p>1.如何在Atom上编辑Markdown时，直接粘贴图片的插件在：atom设置里的install搜索markdown-img-paste,安装后使用快捷键ctrl+shift+v就可以将复制到系统剪切板的图片粘贴到 Markdown。 <a href="https://atom-china.org/t/atom-markdown/2337" target="_blank" rel="noopener">引用链接</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;font color=&quot;red&quot; font=&quot;&quot; size=&quot;4&quot;&gt;摘要&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;这里是atom的各种插件介绍，以及一些atom结合markdown使用的小技巧。&lt;/p&gt;
+      &lt;p&gt;这里是atom的各种插件介绍，以及一些atom结合markdown使用的小技巧。&lt;/p&gt;
     
     </summary>
     
@@ -44,13 +45,13 @@
     <link href="zhangyifeng1995.github.io/%E5%8D%9A%E5%AE%A2/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E4%BC%98%E5%8C%96/"/>
     <id>zhangyifeng1995.github.io/博客/hexo搭建个人博客-优化/</id>
     <published>2018-10-07T17:42:28.000Z</published>
-    <updated>2018-11-25T14:16:13.683Z</updated>
+    <updated>2018-11-26T04:03:59.882Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。</p><a id="more"></a><p>1.添加pdf插件 参考<a href="https://blog.csdn.net/lihangll/article/details/80516085" target="_blank" rel="noopener">GitHub中Hexo next主题下搭建的博客中增加PDF插件</a></p><blockquote><p>1.cd到blog页面下，然后输入‘npm install --save hexo-pdf’(单引号省略)</p><p>2.如果是外部文章链接，在你写的博文md文件的你需要添加pdf的地方直接输入</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;%pdf 那个pdf的地址 %&#125;</span><br></pre></td></tr></table></figure><blockquote><p>如果是本地文章链接，你可以在blog的source文件夹下建立一个pdf的文档，然后把本地pdf放进去，然后在md文件内输入</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;%pdf ./pdf/pdf的名字.pdf %&#125;</span><br></pre></td></tr></table></figure><p>2.在Hexo博客中输入数学公式，不仅仅需要你在生成的markdown文件中输入正确的公式内容，还要在主题文件中进行配置 参考<br><a href="https://www.jianshu.com/p/e4d4433d418a" target="_blank" rel="noopener">Hexo 输入数学公式</a>或者参考<a href="https://monkey0105.github.io/2017/09/21/hexo-mathjax/" target="_blank" rel="noopener">Hexo博客数学公式显示</a></p><script>console.error("Error: [hexo-tag-aplayer] Specified asset file not found (封面图片_url)");</script><p>如下图，在next主题配置文件_config.yaml中找到MathJax 选项，将enable改成true即可<br><img src="assets/markdown-img-paste-2018101400062730.png" alt=""></p><p>3.在使用atom的markdown-image-paste功能时，放到hexo中去回无法显示图片，这时候我们需要在terminal中进行安装<br>参考<a href="https://www.face2ai.com/other-%E7%94%A8atom-markdown-hexo-github%E5%86%99%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">用atom+markdown+hexo+github写博客</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></table></figure><p>注意，以后每次都复制\source_posts\assets进入\sources\assets,同时在复制成功的代码前加个\</p><p>4.hexo博客优化之文章置顶+置顶标签<br>参考<a href="https://blog.csdn.net/qwerty200696/article/details/79010629" target="_blank" rel="noopener">hexo博客优化之文章置顶+置顶标签</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;font color=&quot;red&quot; size=&quot;4&quot;&gt;摘要&lt;/font&gt;
-
-&lt;p&gt;在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。&lt;/p&gt;
+      &lt;p&gt;在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。&lt;/p&gt;
     
     </summary>
     
@@ -68,13 +69,13 @@
     <link href="zhangyifeng1995.github.io/%E7%94%B5%E8%84%91%E6%8A%80%E6%9C%AF/%E7%94%B5%E8%84%91%E7%9A%84%E5%90%84%E7%A7%8Dtips/"/>
     <id>zhangyifeng1995.github.io/电脑技术/电脑的各种tips/</id>
     <published>2018-10-06T21:45:47.000Z</published>
-    <updated>2018-11-25T21:59:16.588Z</updated>
+    <updated>2018-11-26T04:04:27.049Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>虽然大家平常都在用电脑，但是有一些小技巧，大家如果能学会，就能提高自己的工作效率。本人也是在实践中摸索的这些小技巧</p><a id="more"></a><p>针对windos：</p><p>1.如何对文件夹进行快速访问？</p><div align="center">![Aaron Swartz](https://raw.githubusercontent.com/ZhangYifeng1995/markdownphotos/master/10.png)<div align="left"><p>如图所示，在频繁打开文件处于目录较深的文件夹的时候，则添加起来比较麻烦。所以可以采用快速访问，一般频繁访问几次文件夹，这个文件夹就会进去快速访问，但是如果你想第一次添加文件的时候，他就在快速访问栏，怎么操作呢？首先在电脑上找到所在文件夹，右键-固定到“快速访问”，就可以了。</p><p>如果想要看看哪些文件是可以快速访问的，按win+E就可以看到。</p><p>如果想取消快速访问，先按win+E打开快速访问文件夹，然后选中你想取消快速访问的文件夹，右键-从“快速访问”中删除</p><p>针对macOS:</p><p>1.推荐mac软件的网址，</p><blockquote><p><a href="https://www.ifanr.com/app/1046703" target="_blank" rel="noopener">Mac软件推荐1</a></p></blockquote><blockquote><p><a href="https://www.zhihu.com/question/19550256" target="_blank" rel="noopener">知乎用户‘少数派’推荐的mac软件</a>.其中spark我设置了我的gmail邮箱，我的ucl学校邮箱，以及我的qq邮箱（如何设置可见<a href="https://www.jianshu.com/p/35af79d2d2be" target="_blank" rel="noopener">此链接</a>）</p></blockquote><p>2.如何通过mac远程控制自己的windows电脑：下载teamviewer，安装teamviewer，设置teamviewer</p><p>3.如何暂时锁定macbookpro15.6的触控板（在没有鼠标的情况下），参考<a href="http://www.mac52ipod.cn/post/lock-mac-keyboard-and-touchpad-by-os-x-system-accessibility.php" target="_blank" rel="noopener">此链接</a>，注意将“按下Option键五次来开关鼠标键”和“鼠标键打开时忽略内建触控板”都勾选。</p><p>4.发现mac无法新建文档，转移文件非常麻烦，搜索后，发现<a href="https://www.zhihu.com/question/54365916" target="_blank" rel="noopener">知乎中某答主提到</a>新建文件菜单，发现确实有新建文档功能，还顺带发现了另一个方便移动的工具-搬文工，挺好，都下载下来了。</p><p>5.macos Sierra似乎可以在苹果的不同设备之间剪切复制东西，很方便，详见，<a href="https://support.apple.com/kb/PH25168?locale=zh_CN&amp;viewlocale=zh_CN" target="_blank" rel="noopener">此链接</a> 但是不一定成功，可能需要吃重启多次来实现，我不是很需要这个功能，所以没去尝试。当然这个功能还是很好的， 想象一下你看了一篇微信推送文章，你怎么发给电脑，如果能直接复制链接，然后电脑粘贴，那很方便。</p><p>6.新买的mac，桌面文档似乎是自动备份到icould的，这个可以通过设置取消，详见<a href="https://www.zhihu.com/question/66477650" target="_blank" rel="noopener">此链接</a></p><p>7.如何用sublime配置latex，看<a href="https://www.readern.com/sublime-text-latex-chinese-under-mac.html#comments" target="_blank" rel="noopener">这篇文章</a>就够了。不过注意一下，第五步是点菜单栏的skim-选项-同步，不是偏好设置-同步。改配置文件是选sublime text-preferences-packages settings-latextools-user，然后把它云盘的配置文件直接复制进去就ok</p><p>8.快捷键：</p><blockquote><p>快速切换桌面：fn+11，详见<a href="https://jingyan.baidu.comarticle915fc414f232e651394b202c.html" target="_blank" rel="noopener">此链接</a>。</p></blockquote><blockquote><p>隐藏文件:command+shift+.</p></blockquote><p>9.在macOS系统下用hexo建立好了自己的个人博客，mac装个人博客，可以参考<a href="https://blog.csdn.net/qq_34290780/article/details/78230706" target="_blank" rel="noopener">mac环境下搭建hexo+github pages+next个人博客</a>，进行hexo等等的安装。</p><p>关于如何进行个人域名和github页面连接起来，可以参考<a href="https://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="noopener">如何搭建一个独立博客——简明Github Pages与Hexo教程</a>。</p><p>要注意的是：因为博客肯定要更新，所以在终端肯定要进行清理，重新布置，而CNAME文件在下次配置的时候就会消失，这将会导致个人域名与github之间的链接断掉，可以参考此链接(<a href="https://www.cnblogs.com/chengxs/p/7496265.html" target="_blank" rel="noopener">https://www.cnblogs.com/chengxs/p/7496265.html</a>)的几种方法。</p><p>10.如何Mac的更改打开方式的方法参考：<a href="https://sspai.com/post/28394" target="_blank" rel="noopener">此链接</a><br><a href="https://blog.csdn.net/Richard__Ting/article/details/81916856" target="_blank" rel="noopener">mac中matlab安装教程链接</a></p><p>11.mac上可以进行屏幕切换，使用control+左方向键或者右方向键进行屏幕切换，这样可以很方便在多个工作任务之间进行来回切换，非常方便，提高效率。</p><p>12.关于RSS:<br>参考：<a href="https://blog.csdn.net/zhao1949/article/details/52806123" target="_blank" rel="noopener">RSS是什么，RSS怎么玩，RSS原理是什么</a></p><p>RSS是什么：可以帮助我们，在关注的网站更新时，不需要进入网站就可以知道网站更新了哪些文章，然后直接选择性的阅读。</p><p>为什么：用RSS，高效浏览很多你想浏览的文章内容，而尽可能少一些操作。</p><p>怎么用RSS：在浏览器中搜索RSS应用，下载</p></div></div>]]></content>
     
     <summary type="html">
     
-      &lt;font color=&quot;#DC143C&quot; size=&quot;4&quot;&gt;摘要&lt;/font&gt;
-
-&lt;p&gt;虽然大家平常都在用电脑，但是有一些小技巧，大家如果能学会，就能提高自己的工作效率。本人也是在实践中摸索的这些小技巧&lt;/p&gt;
+      &lt;p&gt;虽然大家平常都在用电脑，但是有一些小技巧，大家如果能学会，就能提高自己的工作效率。本人也是在实践中摸索的这些小技巧&lt;/p&gt;
     
     </summary>
     
