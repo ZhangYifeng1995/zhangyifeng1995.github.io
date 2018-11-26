@@ -128,19 +128,19 @@
 
 <link href="https://cdn.bootcss.com/KaTeX/0.7.1/katex.min.css" rel="stylesheet">
 
-  <meta name="description" content="摘要 在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。">
+  <meta name="description" content="摘要  在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。">
 <meta name="keywords" content="hexo,个人博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo搭建个人博客-优化">
 <meta property="og:url" content="zhangyifeng1995.github.io/博客/hexo搭建个人博客-优化/index.html">
 <meta property="og:site_name" content="Eric&#39;s blog">
-<meta property="og:description" content="摘要 在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。">
+<meta property="og:description" content="摘要  在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="zhangyifeng1995.github.io/博客/hexo搭建个人博客-优化/assets/markdown-img-paste-2018101400062730.png">
 <meta property="og:updated_time" content="2018-11-25T14:16:13.683Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo搭建个人博客-优化">
-<meta name="twitter:description" content="摘要 在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。">
+<meta name="twitter:description" content="摘要  在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。">
 <meta name="twitter:image" content="zhangyifeng1995.github.io/博客/hexo搭建个人博客-优化/assets/markdown-img-paste-2018101400062730.png">
 
 
@@ -507,7 +507,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">912</span>
+                <span title="本文字数">908</span>
 
               
 
@@ -542,13 +542,15 @@
       
 
       
-        <p><font color="red" size="4">摘要</font></p>
+        <font color="red" size="4">摘要</font>
+
 <p>在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。</p>
 <a id="more"></a>
-<p><font color="red">正文</font></p>
+<font color="red">正文</font>
+
 <p>1.添加pdf插件 参考<a href="https://blog.csdn.net/lihangll/article/details/80516085" target="_blank" rel="noopener">GitHub中Hexo next主题下搭建的博客中增加PDF插件</a></p>
 <blockquote>
-<p>1.cd到blog页面下，然后输入‘npm install --save hexo-pdf’(单引号省略)</p>
+<p>1.cd到blog页面下，然后输入‘npm install —save hexo-pdf’(单引号省略)</p>
 <p>2.如果是外部文章链接，在你写的博文md文件的你需要添加pdf的地方直接输入</p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;%pdf 那个pdf的地址 %&#125;</span><br></pre></td></tr></table></figure>
@@ -556,20 +558,15 @@
 <p>如果是本地文章链接，你可以在blog的source文件夹下建立一个pdf的文档，然后把本地pdf放进去，然后在md文件内输入</p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;%pdf ./pdf/pdf的名字.pdf %&#125;</span><br></pre></td></tr></table></figure>
-<p>2.在Hexo博客中输入数学公式，不仅仅需要你在生成的markdown文件中输入正确的公式内容，还要在主题文件中进行配置 参考<br>
-<a href="https://www.jianshu.com/p/e4d4433d418a" target="_blank" rel="noopener">Hexo 输入数学公式</a>或者参考<a href="https://monkey0105.github.io/2017/09/21/hexo-mathjax/" target="_blank" rel="noopener">Hexo博客数学公式显示</a></p>
+<p>2.在Hexo博客中输入数学公式，不仅仅需要你在生成的markdown文件中输入正确的公式内容，还要在主题文件中进行配置 参考<br><a href="https://www.jianshu.com/p/e4d4433d418a" target="_blank" rel="noopener">Hexo 输入数学公式</a>或者参考<a href="https://monkey0105.github.io/2017/09/21/hexo-mathjax/" target="_blank" rel="noopener">Hexo博客数学公式显示</a></p>
 
 			<script>
 				console.error("Error: [hexo-tag-aplayer] Specified asset file not found (封面图片_url)");
 			</script>
-<p>如下图，在next主题配置文件_config.yaml中找到MathJax 选项，将enable改成true即可<br>
-<img src="assets/markdown-img-paste-2018101400062730.png" alt=""></p>
-<p>3.在使用atom的markdown-image-paste功能时，放到hexo中去回无法显示图片，这时候我们需要在terminal中进行安装<br>
-参考<a href="https://www.face2ai.com/other-%E7%94%A8atom-markdown-hexo-github%E5%86%99%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">用atom+markdown+hexo+github写博客</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+<p>如下图，在next主题配置文件_config.yaml中找到MathJax 选项，将enable改成true即可<br><img src="assets/markdown-img-paste-2018101400062730.png" alt=""></p>
+<p>3.在使用atom的markdown-image-paste功能时，放到hexo中去回无法显示图片，这时候我们需要在terminal中进行安装<br>参考<a href="https://www.face2ai.com/other-%E7%94%A8atom-markdown-hexo-github%E5%86%99%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">用atom+markdown+hexo+github写博客</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></table></figure></p>
 <p>注意，以后每次都复制\source_posts\assets进入\sources\assets,同时在复制成功的代码前加个\</p>
-<p>4.hexo博客优化之文章置顶+置顶标签<br>
-参考<a href="https://blog.csdn.net/qwerty200696/article/details/79010629" target="_blank" rel="noopener">hexo博客优化之文章置顶+置顶标签</a></p>
+<p>4.hexo博客优化之文章置顶+置顶标签<br>参考<a href="https://blog.csdn.net/qwerty200696/article/details/79010629" target="_blank" rel="noopener">hexo博客优化之文章置顶+置顶标签</a></p>
 
       
     </div>
@@ -933,7 +930,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">2 分钟</span>
   
 </div>
 
@@ -1424,7 +1421,41 @@
         onPopupClose();
       }
     });
-  </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config("");
 </script>
@@ -1441,39 +1472,5 @@
 <script type="text/javascript" src="custom_mathjax_source">
 </script>
 <!-- End: Injected MathJax -->
-<!-- hexo-inject:end -->
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+<!-- hexo-inject:end --></body>
 </html>

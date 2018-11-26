@@ -48,7 +48,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;font color=&quot;red&quot; size=&quot;4&quot;&gt;摘要&lt;/font&gt;&lt;/p&gt;
+      &lt;font color=&quot;red&quot; size=&quot;4&quot;&gt;摘要&lt;/font&gt;
+
 &lt;p&gt;在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。&lt;/p&gt;
     
     </summary>
@@ -71,7 +72,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;font color=&quot;#DC143C&quot; size=&quot;4&quot;&gt;摘要&lt;/font&gt;&lt;/p&gt;
+      &lt;font color=&quot;#DC143C&quot; size=&quot;4&quot;&gt;摘要&lt;/font&gt;
+
 &lt;p&gt;虽然大家平常都在用电脑，但是有一些小技巧，大家如果能学会，就能提高自己的工作效率。本人也是在实践中摸索的这些小技巧&lt;/p&gt;
     
     </summary>
