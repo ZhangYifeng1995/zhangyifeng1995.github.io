@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zhangyifeng1995.github.io/"/>
-  <updated>2018-11-26T04:04:14.264Z</updated>
+  <updated>2018-11-26T04:55:20.756Z</updated>
   <id>zhangyifeng1995.github.io/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="zhangyifeng1995.github.io/%E5%8D%9A%E5%AE%A2/atom-markdown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
     <id>zhangyifeng1995.github.io/博客/atom-markdown使用指南/</id>
     <published>2018-10-13T16:07:10.000Z</published>
-    <updated>2018-11-26T04:04:14.264Z</updated>
+    <updated>2018-11-26T04:55:20.756Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这里是atom的各种插件介绍，以及一些atom结合markdown使用的小技巧。</p><a id="more"></a><p>1.如何在Atom上编辑Markdown时，直接粘贴图片的插件在：atom设置里的install搜索markdown-img-paste,安装后使用快捷键ctrl+shift+v就可以将复制到系统剪切板的图片粘贴到 Markdown。 <a href="https://atom-china.org/t/atom-markdown/2337" target="_blank" rel="noopener">引用链接</a></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这里atom和markdown结合的技巧。</p><a id="more"></a><p>1.如何在Atom上编辑Markdown时，直接粘贴图片的插件在：atom设置里的install搜索markdown-img-paste,安装后使用快捷键ctrl+shift+v就可以将复制到系统剪切板的图片粘贴到 Markdown。 <a href="https://atom-china.org/t/atom-markdown/2337" target="_blank" rel="noopener">引用链接</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;这里是atom的各种插件介绍，以及一些atom结合markdown使用的小技巧。&lt;/p&gt;
+      &lt;p&gt;这里atom和markdown结合的技巧。&lt;/p&gt;
     
     </summary>
     

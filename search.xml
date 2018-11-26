@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[atom-markdown使用指南]]></title>
     <url>%2F%E5%8D%9A%E5%AE%A2%2Fatom-markdown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%2F</url>
-    <content type="text"><![CDATA[这里是atom的各种插件介绍，以及一些atom结合markdown使用的小技巧。 1.如何在Atom上编辑Markdown时，直接粘贴图片的插件在：atom设置里的install搜索markdown-img-paste,安装后使用快捷键ctrl+shift+v就可以将复制到系统剪切板的图片粘贴到 Markdown。 引用链接]]></content>
+    <content type="text"><![CDATA[这里atom和markdown结合的技巧。 1.如何在Atom上编辑Markdown时，直接粘贴图片的插件在：atom设置里的install搜索markdown-img-paste,安装后使用快捷键ctrl+shift+v就可以将复制到系统剪切板的图片粘贴到 Markdown。 引用链接]]></content>
       <categories>
         <category>博客</category>
       </categories>
