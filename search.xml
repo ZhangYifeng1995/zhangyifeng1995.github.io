@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[python使用心得]]></title>
+    <url>%2F2995978588.html</url>
+    <content type="text"><![CDATA[这是每天使用python test总结的心得。1.如何将一个数组按逆序输出12345a = np.array([1,2,3,4])#一种方法:看成一个个列向量，逆序输出b = a[-1:-5:-1] #注意a[3:-1:-1]是不对的，这是因为这里python中序列循环区是[-4,3]#另一种方法:先逆序再顺序输出b = a[::-1][::] #a[::-1]得到了[4,3,2,1]，后面的[::]，表示顺序输出[4,3,2,1]]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[atom-markdown使用指南]]></title>
     <url>%2F1926675163.html</url>
     <content type="text"><![CDATA[这里atom和markdown结合的技巧。 1.如何在Atom上编辑Markdown时，直接粘贴图片的插件在：atom设置里的install搜索markdown-img-paste,安装后使用快捷键ctrl+shift+v就可以将复制到系统剪切板的图片粘贴到 Markdown。 引用链接]]></content>
@@ -15,7 +26,7 @@
   <entry>
     <title><![CDATA[hexo搭建个人博客-优化]]></title>
     <url>%2F1447582146.html</url>
-    <content type="text"><![CDATA[在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。 1.添加pdf插件 参考GitHub中Hexo next主题下搭建的博客中增加PDF插件 1.cd到blog页面下，然后输入‘npm install —save hexo-pdf’(单引号省略) 2.如果是外部文章链接，在你写的博文md文件的你需要添加pdf的地方直接输入 1&#123;%pdf 那个pdf的地址 %&#125; 如果是本地文章链接，你可以在blog的source文件夹下建立一个pdf的文档，然后把本地pdf放进去，然后在md文件内输入 1&#123;%pdf ./pdf/pdf的名字.pdf %&#125; 2.在Hexo博客中输入数学公式，不仅仅需要你在生成的markdown文件中输入正确的公式内容，还要在主题文件中进行配置 参考Hexo 输入数学公式或者参考Hexo博客数学公式显示 console.error("Error: [hexo-tag-aplayer] Specified asset file not found (封面图片_url)"); 如下图，在next主题配置文件_config.yaml中找到MathJax 选项，将enable改成true即可 3.在使用atom的markdown-image-paste功能时，放到hexo中去回无法显示图片，这时候我们需要在terminal中进行安装参考用atom+markdown+hexo+github写博客1npm install https://github.com/CodeFalling/hexo-asset-image --save 注意，以后每次都复制\source_posts\assets进入\sources\assets,同时在复制成功的代码前加个\ 4.hexo博客优化之文章置顶+置顶标签参考hexo博客优化之文章置顶+置顶标签]]></content>
+    <content type="text"><![CDATA[在我之前的博客‘2018-10-1-2018-10-7’，你可以找到hexo建立个人博客和链接域名的基本方法。但是那样的博客并不美观，而且很基础。我们需要做很多后期的优化工作。这里收录了一些别人整理的优化方案。 Hexo学习参考资料hexo常用命令笔记 Hexo: 常用命令clean1hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)。在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。 generate1hexo generate #生成静态文件 该命令可以简写成1hexo g deploy1hexo deploy #部署网站 该命令可以简写成1hexo d new1hexo new &quot;title&quot; 新建文章该命令可以简写成1hexo n &quot;title&quot; 1.添加pdf插件 参考GitHub中Hexo next主题下搭建的博客中增加PDF插件 1.cd到blog页面下，然后输入‘npm install —save hexo-pdf’(单引号省略) 2.如果是外部文章链接，在你写的博文md文件的你需要添加pdf的地方直接输入 1&#123;%pdf 那个pdf的地址 %&#125; 如果是本地文章链接，你可以在blog的source文件夹下建立一个pdf的文档，然后把本地pdf放进去，然后在md文件内输入 1&#123;%pdf ./pdf/pdf的名字.pdf %&#125; 2.在Hexo博客中输入数学公式，不仅仅需要你在生成的markdown文件中输入正确的公式内容，还要在主题文件中进行配置 参考Hexo 输入数学公式或者参考Hexo博客数学公式显示 console.error("Error: [hexo-tag-aplayer] Specified asset file not found (封面图片_url)"); 如下图，在next主题配置文件_config.yaml中找到MathJax 选项，将enable改成true即可 3.在使用atom的markdown-image-paste功能时，放到hexo中去回无法显示图片，这时候我们需要在terminal中进行安装参考用atom+markdown+hexo+github写博客1npm install https://github.com/CodeFalling/hexo-asset-image --save 注意，以后每次都复制\source_posts\assets进入\sources\assets,同时在复制成功的代码前加个\ 4.hexo博客优化之文章置顶+置顶标签参考hexo博客优化之文章置顶+置顶标签]]></content>
       <categories>
         <category>博客</category>
       </categories>
